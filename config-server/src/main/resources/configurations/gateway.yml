@@ -41,4 +41,7 @@ logging:
     org.springframework.cloud.gateway: DEBUG
     reactor.netty.http.client: DEBUG
 
-
+management:
+  tracing:
+    sampling:
+        probability: 1.0
